@@ -17,10 +17,10 @@ export default function Navbar() {
   console.log(navigation?.name);
 
   return (
-    <nav className="flex sticky z-50 bg-white/70 lg:py-3 p-2 md:px-10 items-center justify-between">
+    <nav className="flex sticky z-50 bg-white/70 lg:py-3 p-3 md:px-20 items-center justify-between">
       <Link to={"/"} className="flex items-center gap-4">
         <img className="sm:h-auto w-auto h-10" src={logo} alt="" />
-        <strong className="text-primary lg:block lg:text-base hidden text-base leading-5 tracking-tight">
+        <strong className="text-primary lg:block lg:text-base text-xs md:text-base md:leading-5 tracking-tight">
           ALBISHIR TRUST <br /> FOUNDATION
         </strong>
       </Link>

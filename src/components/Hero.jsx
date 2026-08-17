@@ -12,7 +12,7 @@ export default function Hero() {
         alt=""
       />
 
-      <div className="absolute px-5 md:px-10 gap-10 lg:w-[55%] md:w-[80%] w-full text-white h-full flex flex-col justify-center">
+      <div className="absolute px-5 md:px-20 gap-10 lg:w-[55%] md:w-full w-full text-white h-full flex flex-col justify-center">
         <motion.h2
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
