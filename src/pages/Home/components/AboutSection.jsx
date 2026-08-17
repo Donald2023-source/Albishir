@@ -39,7 +39,7 @@ export default function AboutSection() {
           needs through practical community programs.
         </motion.p>
         <Link
-          className="flex items-center gap-2 text-[#163625] border-b border-secondary w-fit py-2 font-semibold"
+          className="flex items-center gap-2 md:text-base text-sm  text-[#163625] border-b border-secondary w-fit py-2 font-semibold"
           to={"/about"}
         >
           Learn About Us <ArrowRight />
