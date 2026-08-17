@@ -1,6 +1,14 @@
-export default function Button({ text, ...props }) {
+import { twMerge } from "tailwind-merge";
+
+export default function Button({ className, text, ...props }) {
   return (
-    <button style={{ padding: "8px 20px", cursor: "pointer" }} {...props}>
+    <button
+      className={twMerge(
+        "py-3 cursor-pointer hover:scale-95 hover:transition-all px-7",
+        className,
+      )}
+      {...props}
+    >
       {text}
     </button>
   );

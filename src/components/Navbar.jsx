@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { logo } from "../../static";
 import Button from "./Button";
 import { Menu, X } from "lucide-react";
@@ -13,6 +13,9 @@ export default function Navbar() {
   ];
 
   const [nav, setNav] = useState(false);
+  const navigation = useNavigate();
+  console.log(navigation?.name);
+
   return (
     <nav className="flex sticky z-50 bg-white/70 lg:py-3 p-2 md:px-10 items-center justify-between">
       <Link to={"/"} className="flex items-center gap-4">
