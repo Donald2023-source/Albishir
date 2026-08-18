@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 export default function AboutSection() {
   return (
-    <div className="flex lg:flex-row flex-col my-10 md:items-start lg:items-center gap-10 md:gap-32 justify-ceter w-full md:px-15 px-4">
+    <div id="about-us" className="flex lg:flex-row flex-col my-10 md:items-start lg:items-center gap-10 md:gap-32 justify-ceter w-full md:px-15 px-4">
       <motion.img
         initial={{ opacity: 0.3 }}
         whileInView={{ opacity: 1 }}

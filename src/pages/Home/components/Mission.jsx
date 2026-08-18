@@ -101,7 +101,10 @@ export default function Mission() {
         </div>
       </div>
 
-      <div className="md:p-20 px-4 py-10 w-full flex flex-col md:items-center gap-5 bg-primary/8">
+      <div
+        id="our-impact"
+        className="md:p-20 px-4 py-10 w-full flex flex-col md:items-center gap-5 bg-primary/8"
+      >
         <h4 className="md:text-center font-semibold text-primary">
           OUR IMPACT
         </h4>

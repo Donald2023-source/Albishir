@@ -4,6 +4,7 @@ import RootLayout from "./components/Layout";
 import Programs from "./pages/Programs/Programs";
 import Gallery from "./pages/Gallery/Gallery";
 import GetInvolved from "./pages/Get-Involved/GetInvolved";
+import Contact from "./pages/contact/Contact";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/our-programs" element={<Programs />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/get-involved" element={<GetInvolved />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </RootLayout>
     </BrowserRouter>
