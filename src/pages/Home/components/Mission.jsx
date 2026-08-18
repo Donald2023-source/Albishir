@@ -57,7 +57,9 @@ export default function Mission() {
 
       <div className="w-full flex flex-col items-center">
         <strong className="text-sm text-secondary ">WHAT WE DO</strong>
-        <p className="font-header text-4xl py-4">Where We Make a Difference</p>
+        <p className="font-header font-medium text-xl md:text-4xl py-4">
+          Where We Make a Difference
+        </p>
 
         <div className="flex lg:flex-row flex-col my-10 md:items-start lg:items-center gap-10 md:gap-32 justify-ceter w-full md:px-15 px-4">
           <motion.img

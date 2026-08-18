@@ -9,11 +9,13 @@ export default function Roles() {
     },
   ];
   return (
-    <div className=" flex flex-col w-fit mx-auto my-10">
+    <div className=" flex flex-col md:px-1 px-4 w-fit mx-auto my-10">
       {roles?.map((item) => (
         <div className="flex items-center md:gap-20 border-b md:py-5 py-8 border-gray-300">
-          <strong className="text-sm w-32 text-primary">{item?.name}</strong>
-          <p className="md:text-lg text-sm">{item?.text}</p>
+          <h4 className="text-xs md:text-sm font-bold md:w-32 w-32 text-primary">
+            {item?.name}
+          </h4>
+          <p className="md:text-lg text-xs">{item?.text}</p>
         </div>
       ))}
     </div>
