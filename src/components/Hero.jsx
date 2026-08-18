@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative h-[80vh] md:h-screen">
-      <Navbar />
       <img
         className="absolute object-cover inset-0 h-full w-full"
         src={heroImg}
