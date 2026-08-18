@@ -9,7 +9,7 @@ export default function Navbar() {
     { name: "About Us", href: "/about-us" },
     { name: "Our Programs", href: "/programs" },
     { name: "Our Impact", href: "/impact" },
-    { name: "Our Work", href: "/work" },
+    { name: "Gallery", href: "/gallery" },
   ];
 
   const [nav, setNav] = useState(false);
