@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import img from "../../assets/alb4.png";
-import img2 from "../../assets/alb3.jpg";
-import img3 from "../../assets/alb2.png";
-import img4 from "../../assets/alb1.jpg";
+import img from "../../assets/alb13.jpg";
+import img2 from "../../assets/alb11.jpg";
+import img3 from "../../assets/alb14.jpg";
+import img4 from "../../assets/alb15.jpg";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import ProgramElement from "./components/programElement";
@@ -36,7 +36,7 @@ export default function Programs() {
   ];
   return (
     <div className="max-w-7xl w-full mx-auto">
-      <div className="md:w-[35%] flex items-center py-8 mx-auto flex-col text-center gap-6">
+      <div className="md:w-[35%] flex items-center py-8 mt-20 mx-auto flex-col text-center gap-6">
         <h2 className="font-header text-5xl">Our Programs</h2>
         <p className="text-[#5A5A5ACC] md:text-lg">
           Empowering communities through dedicated support, resource sharing,

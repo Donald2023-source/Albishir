@@ -8,7 +8,7 @@ import {
 import Missioncard from "./MissionCard";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import img from "../../../assets/alb8.png";
+import img from "../../../assets/alb10.jpg";
 export default function Mission() {
   const MissionCardItems = [
     {

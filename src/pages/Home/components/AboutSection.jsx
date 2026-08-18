@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img from "../../../assets/alb6.jpg";
+import img from "../../../assets/alb11.jpg";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 export default function AboutSection() {
