@@ -1,6 +1,7 @@
 import { ArrowRight, BookOpen, Heart, UserLock } from "lucide-react";
 import img from "../../assets/alb8.png";
 import Button from "../../components/Button";
+import { Link } from "react-router-dom";
 export default function GetInvolved() {
   return (
     <div>
@@ -29,10 +30,13 @@ export default function GetInvolved() {
               Work with us to expand programs and reach more communities.
             </p>
             <span className="flex items-center gap-">
-              <button className="flex items-center hover:scale-95 transition-all cursor-pointer bg-primary/8 p-3 rounded-lg text-sm gap-1">
+              <Link
+                to="/contact"
+                className="flex items-center hover:scale-95 transition-all cursor-pointer bg-primary/8 p-3 rounded-lg text-sm gap-1"
+              >
                 Partner With Us
                 <ArrowRight size={16} />
-              </button>
+              </Link>
             </span>
           </div>
           <div className=" px-9 rounded-2xl py-10 shadow-lg flex flex-col items-center text-center  gap-3">
@@ -43,10 +47,13 @@ export default function GetInvolved() {
               communities in need.
             </p>
             <span className="flex items-center gap-">
-              <button className="flex hover:scale-95 transition-all items-center cursor-pointer bg-primary text-white p-3 rounded-lg text-sm gap-1">
+              <Link
+                to="/contact"
+                className="flex hover:scale-95 transition-all items-center cursor-pointer bg-primary text-white p-3 rounded-lg text-sm gap-1"
+              >
                 Donate Now
                 <ArrowRight size={16} />
-              </button>
+              </Link>
             </span>
           </div>
           <div className=" px-9 rounded-2xl py-10 shadow-lg flex flex-col items-center text-center  gap-3">
@@ -57,10 +64,13 @@ export default function GetInvolved() {
               difference.
             </p>
             <span className="flex items-center gap-">
-              <button className="flex items-center hover:scale-95 transition-all cursor-pointer bg-primary/8 p-3 rounded-lg text-sm gap-1">
+              <Link
+                to="/contact"
+                className="flex items-center hover:scale-95 transition-all cursor-pointer bg-primary/8 p-3 rounded-lg text-sm gap-1"
+              >
                 Volunteer
                 <ArrowRight size={16} />
-              </button>
+              </Link>
             </span>
           </div>
         </div>

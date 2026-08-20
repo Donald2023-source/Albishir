@@ -25,7 +25,10 @@ export default function Contact() {
         <h2 className="text-2xl font-header text-black/60 font-extrabold py-2">
           Get in touch with us !
         </h2>
-
+        <p className="text-center text-sm md:text-base text-black/70">
+          Contact us for more information about our organization, donation
+          opportunities, partnerships, and volunteer programs.
+        </p>
         <div className="w-full grid py-6 px-4 md:grid-cols-3 gap-10">
           <div className=" px-9 rounded-2xl  py-10 shadow-lg flex flex-col items-center text-center  gap-3">
             <Smartphone className="text-primary" />

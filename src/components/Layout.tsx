@@ -1,5 +1,6 @@
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Scroll from "./Scroll";
 
 export default function RootLayout({
   children,
@@ -8,6 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <>
+      <Scroll />
       <Navbar />
       {children}
       <Footer />

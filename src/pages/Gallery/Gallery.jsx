@@ -28,8 +28,8 @@ export default function Gallery() {
   ];
 
   return (
-    <div className="max-w-7xl w-full mx-auto px-4">
-      <div className="md:w-[50%] flex items-center py-8 mx-auto flex-col text-center gap-6">
+    <div className="max-w-7xl w-full mx-auto px-4 my-20">
+      <div className="md:w-[50%] flex items-center py-8 mx-auto flex-col text-center  mt-10 gap-6">
         <h2 className="font-header text-5xl">Gallery</h2>
 
         <p className="text-[#5A5A5ACC] md:text-lg">

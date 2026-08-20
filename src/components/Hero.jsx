@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import heroImg from "../assets/alb7.png";
 import Button from "./Button";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <section className="relative h-[80vh] md:h-screen">
@@ -36,14 +37,19 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="flex items-center gap-5"
         >
-          <Button
-            className="bg-primary px-9 md:text-base text-sm text-white rounded-lg"
-            text={"Donate"}
-          />
-          <Button
-            className="bg-white/10 px-9 md:text-base text-sm text-white rounded-lg"
-            text={"Discover Our Mission"}
-          />
+          <Link to={"/contact"}>
+            <Button
+              className="bg-primary px-9 md:text-base text-sm text-white rounded-lg"
+              text={"Donate"}
+            />
+          </Link>
+
+          <Link to="/our-programs">
+            <Button
+              className="bg-white/10 px-9 md:text-base text-sm text-white rounded-lg"
+              text={"Discover Our Mission"}
+            />
+          </Link>
         </motion.div>
       </div>
     </section>

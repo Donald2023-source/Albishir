@@ -93,7 +93,7 @@ export default function Mission() {
             </motion.p>
             <Link
               className="flex items-center gap-2 md:ml-0 ml-1 md:text-base text-sm  text-[#163625] border-b border-secondary w-fit py-2 font-semibold"
-              to={"/about"}
+              to={"/our-programs"}
             >
               Explore Our Programs <ArrowRight />
             </Link>

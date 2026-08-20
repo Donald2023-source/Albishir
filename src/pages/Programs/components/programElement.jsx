@@ -56,7 +56,7 @@ export default function ProgramElement({
         {showButton && (
           <Link
             className="flex items-center gap-2 md:text-base text-sm  text-[#163625] border-b border-secondary w-fit py-2 font-semibold"
-            to={"/donate"}
+            to={"/contact"}
           >
             {buttonContent} <ArrowRight />
           </Link>
