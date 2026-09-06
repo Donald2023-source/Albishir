@@ -50,7 +50,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex fixed w-full top-0 z-50 bg-white/80 lg:py-3 p-3 md:px-20 items-center justify-between">
+    <nav className="flex fixed w-full top-0 z-50 bg-white lg:py-3 p-3 md:px-20 items-center justify-between">
       <Link to="/" className="flex items-center gap-4">
         <img
           className="sm:h-auto w-auto h-10"
